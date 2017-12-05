@@ -7,6 +7,7 @@ import MonetUtils from './lib/MonetUtils'
 import MotionUtils from './lib/MotionUtils'
 import ObjectUtils from './lib/ObjectUtils'
 import TextUtils from './lib/TextUtils'
+import NetUtils from './lib/NetUtils'
 
 // has named exports
 import * as ArrayUtils from './lib/ArrayUtils'
@@ -23,4 +24,5 @@ export {
 	MotionUtils,
 	ObjectUtils,
 	TextUtils,
+	NetUtils,
 }
