@@ -3,8 +3,8 @@ import ColorUtils from './lib/ColorUtils'
 import DcsUtils from './lib/DcsUtils'
 import ImageUtils from './lib/ImageUtils'
 import LocationUtils from './lib/LocationUtils'
-import MonetUtils from './lib/MonetUtils'
-import MotionUtils from './lib/MotionUtils'
+// import MonetUtils from './lib/MonetUtils'
+// import MotionUtils from './lib/MotionUtils'
 import ObjectUtils from './lib/ObjectUtils'
 import TextUtils from './lib/TextUtils'
 import NetUtils from './lib/NetUtils'
@@ -20,8 +20,8 @@ export {
 	ImageUtils,
 	LocationUtils,
 	MathUtils,
-	MonetUtils,
-	MotionUtils,
+	// MonetUtils,
+	// MotionUtils,
 	ObjectUtils,
 	TextUtils,
 	NetUtils,
