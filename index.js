@@ -8,6 +8,10 @@ import TextUtils from './lib/TextUtils'
 import NetUtils from './lib/NetUtils'
 
 // has named exports
+
+// NOTE: DON'T import only "default" from ObjectUtils since the default
+// function is a reserved keyword. Importing into scope will likely cause
+// issues w/ code using the "default" keyword
 import * as ObjectUtils from './lib/ObjectUtils'
 import * as ColorUtils from './lib/ColorUtils'
 import * as ArrayUtils from './lib/ArrayUtils'
