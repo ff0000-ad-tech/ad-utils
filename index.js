@@ -15,8 +15,6 @@ import * as ArrayUtils from './lib/ArrayUtils'
 import * as MathUtils from './lib/MathUtils'
 import * as ImageUtils from './lib/ImageUtils'
 
-console.log('keys', Object.keys(ObjectUtils))
-
 export {
 	ArrayUtils,
 	ColorUtils,
