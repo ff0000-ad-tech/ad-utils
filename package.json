@@ -21,6 +21,7 @@
     "mocha": "^4.0.1"
   },
   "dependencies": {
-    "ad-view": "git://github.com/ff0000-ad-tech/ad-view.git"
+    "ad-view": "git://github.com/ff0000-ad-tech/ad-view.git",
+    "ad-events": "git://github.com/ff0000-ad-tech/ad-events.git"
   }
 }
