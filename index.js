@@ -3,7 +3,7 @@ import DcsUtils from './lib/DcsUtils'
 import LocationUtils from './lib/LocationUtils'
 import MonetUtils from './lib/MonetUtils'
 import MotionUtils from './lib/MotionUtils'
-import TextUtils from './lib/TextUtils'
+// import TextUtils from './lib/TextUtils'
 import NetUtils from './lib/NetUtils'
 
 /* NOTE: DON'T import only "default" from ObjectUtils since the default
@@ -25,6 +25,6 @@ export {
 	MonetUtils,
 	MotionUtils,
 	ObjectUtils,
-	TextUtils,
+	// TextUtils,
 	NetUtils,
 }
