@@ -22,6 +22,5 @@ export {
 	ArrayUtils,
 	ColorUtils,
 	ImageUtils,
-	MathUtils,
 	ObjectUtils,
 }
