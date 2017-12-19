@@ -1,7 +1,6 @@
 
 export { default as DcsUtils } from './lib/DcsUtils'
 export { default as LocationUtils } from './lib/LocationUtils'
-export { default as MonetUtils } from './lib/MonetUtils'
 export { default as MotionUtils } from './lib/MotionUtils'
 export { default as TextUtils } from './lib/TextUtils'
 export { default as NetUtils } from './lib/NetUtils'
