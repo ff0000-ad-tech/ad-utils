@@ -1,1 +1,1 @@
-import './ColorUtils'
+import './Singleton.spec'
