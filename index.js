@@ -3,6 +3,7 @@ export { default as LocationUtils } from './lib/LocationUtils'
 export { default as MotionUtils } from './lib/MotionUtils'
 export { default as TextUtils } from './lib/TextUtils'
 export { default as NetUtils } from './lib/NetUtils'
+import { default as MonetUtils } from './lib/MonetUtils'
 
 /* NOTE: DON'T import only "default" from ObjectUtils since the default
 function is a reserved keyword. Importing into scope will likely cause
@@ -21,4 +22,5 @@ export {
 	ColorUtils,
 	ImageUtils,
 	ObjectUtils,
+	MonetUtils
 }
