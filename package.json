@@ -1,31 +1,31 @@
 {
-  "name": "ad-utils",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "mocha --require test/testHelper"
-  },
-  "repository": {
-    "type": "git"
-  },
-  "author": "RED Interactive Agency",
-  "license": "ISC",
-  "devDependencies": {
-    "babel-core": "^6.26.0",
-    "babel-jest": "^21.2.0",
-    "babel-preset-env": "^1.6.1",
-    "chai": "^4.1.2",
-    "jsdom": "^11.5.1",
-    "jsdom-global": "^3.0.2",
-    "mocha": "^4.0.1",
-    "eslint": "^4.16.0",
-    "eslint-config-prettier": "^2.9.0",
-    "eslint-plugin-prettier": "^2.5.0",
-    "prettier": "^1.10.2"
-  },
-  "dependencies": {
-    "ad-view": "git://github.com/ff0000-ad-tech/ad-view.git",
-    "ad-video": "git://github.com/ff0000-ad-tech/ad-video.git"
-  }
+	"name": "ad-utils",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"test": "mocha --require test/testHelper"
+	},
+	"repository": {
+		"type": "git"
+	},
+	"author": "RED Interactive Agency",
+	"license": "ISC",
+	"devDependencies": {
+		"babel-core": "^6.26.0",
+		"babel-jest": "^21.2.0",
+		"babel-preset-env": "^1.6.1",
+		"chai": "^4.1.2",
+		"jsdom": "^11.5.1",
+		"jsdom-global": "^3.0.2",
+		"mocha": "^4.0.1",
+		"eslint": "^4.16.0",
+		"eslint-config-prettier": "^2.9.0",
+		"eslint-plugin-prettier": "^2.5.0",
+		"prettier": "^1.10.2"
+	},
+	"dependencies": {
+		"ad-view": "git+https://github.com/ff0000-ad-tech/ad-view.git",
+		"ad-video": "git+https://github.com/ff0000-ad-tech/ad-video.git"
+	}
 }
