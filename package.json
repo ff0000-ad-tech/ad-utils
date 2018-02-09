@@ -1,16 +1,19 @@
 {
-	"name": "ad-utils",
+	"name": "@ff0000-ad-tech/ad-utils",
+	"publishConfig": {
+		"access": "public"
+	},
 	"version": "1.0.0",
 	"description": "",
 	"main": "index.js",
 	"scripts": {
-		"test": "mocha --require test/testHelper"
+		"pub": "np"
 	},
 	"repository": {
 		"type": "git"
 	},
 	"author": "RED Interactive Agency",
-	"license": "ISC",
+	"license": "MIT",
 	"devDependencies": {
 		"babel-core": "^6.26.0",
 		"babel-jest": "^21.2.0",
@@ -22,6 +25,7 @@
 		"eslint": "^4.16.0",
 		"eslint-config-prettier": "^2.9.0",
 		"eslint-plugin-prettier": "^2.5.0",
+		"np": "^2.19.0",
 		"prettier": "^1.10.2"
 	},
 	"dependencies": {
