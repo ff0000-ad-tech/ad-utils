@@ -1,7 +1,6 @@
 
 export { default as LocationUtils } from './lib/LocationUtils'
 export { default as MotionUtils } from './lib/MotionUtils'
-export { default as NetUtils } from './lib/NetUtils'
 import { default as MonetUtils } from './lib/MonetUtils'
 
 /* NOTE: DON'T import only "default" from ObjectUtils since the default
@@ -14,6 +13,7 @@ import * as ColorUtils from './lib/ColorUtils'
 import * as ArrayUtils from './lib/ArrayUtils'
 import * as ImageUtils from './lib/ImageUtils'
 import * as TextUtils from './lib/TextUtils'
+import * as NetUtils from './lib/NetUtils'
 
 export {
 	DcsUtils,
@@ -23,5 +23,6 @@ export {
 	ImageUtils,
 	ObjectUtils,
 	MonetUtils,
+	NetUtils,
 	TextUtils
 }
