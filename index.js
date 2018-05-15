@@ -1,4 +1,3 @@
-
 export { default as LocationUtils } from './lib/LocationUtils'
 export { default as MotionUtils } from './lib/MotionUtils'
 import { default as MonetUtils } from './lib/MonetUtils'
@@ -15,14 +14,6 @@ import * as ImageUtils from './lib/ImageUtils'
 import * as TextUtils from './lib/TextUtils'
 import * as NetUtils from './lib/NetUtils'
 
-export {
-	DcsUtils,
-	MathUtils,
-	ArrayUtils,
-	ColorUtils,
-	ImageUtils,
-	ObjectUtils,
-	MonetUtils,
-	NetUtils,
-	TextUtils
-}
+export { DcsUtils, MathUtils, ArrayUtils, ColorUtils, ImageUtils, ObjectUtils, MonetUtils, NetUtils, TextUtils }
+
+export { default as getQueryParams } from './lib/getQueryParams.js'
