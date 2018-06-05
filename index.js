@@ -12,7 +12,6 @@ import * as ColorUtils from './lib/ColorUtils'
 import * as ArrayUtils from './lib/ArrayUtils'
 import * as ImageUtils from './lib/ImageUtils'
 import * as TextUtils from './lib/TextUtils'
-import * as NetUtils from './lib/NetUtils'
 
 export { DcsUtils, MathUtils, ArrayUtils, ColorUtils, ImageUtils, ObjectUtils, MonetUtils, TextUtils }
 
