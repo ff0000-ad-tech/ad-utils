@@ -14,5 +14,3 @@ import * as ImageUtils from './lib/ImageUtils'
 import * as TextUtils from './lib/TextUtils'
 
 export { DcsUtils, MathUtils, ArrayUtils, ColorUtils, ImageUtils, ObjectUtils, MonetUtils, TextUtils }
-
-export { default as getQueryParam } from './lib/getQueryParam.js'
