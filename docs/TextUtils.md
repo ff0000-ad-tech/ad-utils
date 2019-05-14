@@ -5,11 +5,11 @@
 
 * [TextUtils](#TextUtils)
     * [new TextUtils()](#new_TextUtils_new)
-    * [.addSpaces()(numberOfSpaces)](#TextUtils.addSpaces_new) ⇒
-    * [.getSpecialCharacter()(requestedCharacter, isCapital)](#TextUtils.getSpecialCharacter_new) ⇒
-    * [.trimStartAndEnd()(target)](#TextUtils.trimStartAndEnd_new) ⇒
-    * [.removeSpaces()(str)](#TextUtils.removeSpaces_new) ⇒
-    * [.pad()(_target, _count)](#TextUtils.pad_new) ⇒
+    * [.addSpaces()(numberOfSpaces)](#TextUtils.addSpaces_new) ⇒ <code>string</code>
+    * [.getSpecialCharacter()(requestedCharacter, isCapital)](#TextUtils.getSpecialCharacter_new) ⇒ <code>string</code>
+    * [.trimStartAndEnd()(target)](#TextUtils.trimStartAndEnd_new) ⇒ <code>string</code>
+    * [.removeSpaces()(str)](#TextUtils.removeSpaces_new) ⇒ <code>string</code>
+    * [.pad()(_target, _count)](#TextUtils.pad_new) ⇒ <code>string</code>
     * [.injectBreakTags(str, indexes)](#TextUtils.injectBreakTags)
 
 <a name="new_TextUtils_new"></a>
@@ -23,11 +23,9 @@ import { TextUtils } from 'ad-utils'
 
 <a name="TextUtils.addSpaces_new"></a>
 
-### TextUtils.addSpaces()(numberOfSpaces) ⇒
-Returns the specified number of '&nbsp;' strings.
-
+### TextUtils.addSpaces()(numberOfSpaces) ⇒ <code>string</code>
 **Kind**: static method of [<code>TextUtils</code>](#TextUtils)  
-**Returns**: The modified String  
+**Returns**: <code>string</code> - Returns the specified number of '&nbsp;' strings.  
 
 | Param | Type | Description |
 | --- | --- | --- |
@@ -35,11 +33,9 @@ Returns the specified number of '&nbsp;' strings.
 
 <a name="TextUtils.getSpecialCharacter_new"></a>
 
-### TextUtils.getSpecialCharacter()(requestedCharacter, isCapital) ⇒
-Returns entity equivilent for specified character.
-
+### TextUtils.getSpecialCharacter()(requestedCharacter, isCapital) ⇒ <code>string</code>
 **Kind**: static method of [<code>TextUtils</code>](#TextUtils)  
-**Returns**: The modified String  
+**Returns**: <code>string</code> - Returns entity equivilent for specified character.  
 
 | Param | Type | Description |
 | --- | --- | --- |
@@ -48,11 +44,9 @@ Returns entity equivilent for specified character.
 
 <a name="TextUtils.trimStartAndEnd_new"></a>
 
-### TextUtils.trimStartAndEnd()(target) ⇒
-Removes white space from the start and end of a string.
-
+### TextUtils.trimStartAndEnd()(target) ⇒ <code>string</code>
 **Kind**: static method of [<code>TextUtils</code>](#TextUtils)  
-**Returns**: The modified String  
+**Returns**: <code>string</code> - Removes white space from the start and end of a string.  
 
 | Param | Type | Description |
 | --- | --- | --- |
@@ -60,11 +54,9 @@ Removes white space from the start and end of a string.
 
 <a name="TextUtils.removeSpaces_new"></a>
 
-### TextUtils.removeSpaces()(str) ⇒
-Removes all white space from the string.
-
+### TextUtils.removeSpaces()(str) ⇒ <code>string</code>
 **Kind**: static method of [<code>TextUtils</code>](#TextUtils)  
-**Returns**: The modified String  
+**Returns**: <code>string</code> - Removes all white space from the string.  
 
 | Param | Type | Description |
 | --- | --- | --- |
@@ -72,11 +64,9 @@ Removes all white space from the string.
 
 <a name="TextUtils.pad_new"></a>
 
-### TextUtils.pad()(_target, _count) ⇒
-Pads a number with zeros up to the specified number of places.
-
+### TextUtils.pad()(_target, _count) ⇒ <code>string</code>
 **Kind**: static method of [<code>TextUtils</code>](#TextUtils)  
-**Returns**: The modified String  
+**Returns**: <code>string</code> - Pads a number with zeros up to the specified number of places.  
 
 | Param | Type | Description |
 | --- | --- | --- |

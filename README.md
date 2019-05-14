@@ -1,24 +1,21 @@
 ##### RED Interactive Agency - Ad Technology
 
-[![npm
-(tag)](https://img.shields.io/npm/v/@ff0000-ad-tech%2Fad-utils.svg?style=flat-square)](https://www.npmjs.com/package/@ff0000-ad-tech%2Fad-utils)
-[![GitHub
-issues](https://img.shields.io/github/issues/ff0000-ad-tech/ad-utils.svg?style=flat-square)](https://github.com/ff0000-ad-tech/ad-utils)
-[![npm
-downloads](https://img.shields.io/npm/dm/@ff0000-ad-tech%2Fad-utils.svg?style=flat-square)](https://www.npmjs.com/package/@ff0000-ad-tech%2Fad-utils)
+[![npm (tag)](https://img.shields.io/npm/v/@ff0000-ad-tech%2Fad-utils.svg?style=flat-square)](https://www.npmjs.com/package/@ff0000-ad-tech%2Fad-utils)
+[![GitHub issues](https://img.shields.io/github/issues/ff0000-ad-tech/ad-utils.svg?style=flat-square)](https://github.com/ff0000-ad-tech/ad-utils)
+[![npm downloads](https://img.shields.io/npm/dm/@ff0000-ad-tech%2Fad-utils.svg?style=flat-square)](https://www.npmjs.com/package/@ff0000-ad-tech%2Fad-utils)
 
-[![GitHub
-contributors](https://img.shields.io/github/contributors/ff0000-ad-tech/ad-utils.svg?style=flat-square)](https://github.com/ff0000-ad-tech/ad-utils/graphs/contributors/)
-[![GitHub
-commit-activity](https://img.shields.io/github/commit-activity/y/ff0000-ad-tech/ad-utils.svg?style=flat-square)](https://github.com/ff0000-ad-tech/ad-utils/commits/master)
-[![npm
-license](https://img.shields.io/npm/l/@ff0000-ad-tech%2Fad-utils.svg?style=flat-square)](https://github.com/ff0000-ad-tech/wp-creative-server/blob/master/LICENSE)
-[![PRs
-Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
-
-# Utils
+[![GitHub contributors](https://img.shields.io/github/contributors/ff0000-ad-tech/ad-utils.svg?style=flat-square)](https://github.com/ff0000-ad-tech/ad-utils/graphs/contributors/)
+[![GitHub commit-activity](https://img.shields.io/github/commit-activity/y/ff0000-ad-tech/ad-utils.svg?style=flat-square)](https://github.com/ff0000-ad-tech/ad-utils/commits/master)
+[![npm license](https://img.shields.io/npm/l/@ff0000-ad-tech%2Fad-utils.svg?style=flat-square)](https://github.com/ff0000-ad-tech/ad-utils/blob/master/LICENSE)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 
 * * *
+
+# ad-utils
+
+A package of stand alone utilies for Array, Math, Text, Object, etc
+
+## API 
 
 ## <a name="ArrayUtils" href="./docs/ArrayUtils.md">ArrayUtils</a>
 * <a href="./docs/ArrayUtils.md#ArrayUtils.combine">.combine(arr1, arr2)</a>
@@ -71,11 +68,12 @@ Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-squ
 * <a href="./docs/ObjectUtils.md#ObjectUtils.clone">.clone(obj)</a> ⇒ <code>object</code>
 * <a href="./docs/ObjectUtils.md#ObjectUtils.defaults">.defaults(obj, defaultObj, recursive)</a>
 ## <a name="TextUtils" href="./docs/TextUtils.md">TextUtils</a>
-* <a href="./docs/TextUtils.md#TextUtils.addSpaces_new">.addSpaces()(numberOfSpaces)</a> ⇒
-* <a href="./docs/TextUtils.md#TextUtils.getSpecialCharacter_new">.getSpecialCharacter()(requestedCharacter, isCapital)</a> ⇒
-* <a href="./docs/TextUtils.md#TextUtils.trimStartAndEnd_new">.trimStartAndEnd()(target)</a> ⇒
-* <a href="./docs/TextUtils.md#TextUtils.removeSpaces_new">.removeSpaces()(str)</a> ⇒
-* <a href="./docs/TextUtils.md#TextUtils.pad_new">.pad()(_target, _count)</a> ⇒
+* <a href="./docs/TextUtils.md#TextUtils.addSpaces_new">.addSpaces()(numberOfSpaces)</a> ⇒ <code>string</code>
+* <a href="./docs/TextUtils.md#TextUtils.getSpecialCharacter_new">.getSpecialCharacter()(requestedCharacter, isCapital)</a> ⇒ <code>string</code>
+* <a href="./docs/TextUtils.md#TextUtils.trimStartAndEnd_new">.trimStartAndEnd()(target)</a> ⇒ <code>string</code>
+* <a href="./docs/TextUtils.md#TextUtils.removeSpaces_new">.removeSpaces()(str)</a> ⇒ <code>string</code>
+* <a href="./docs/TextUtils.md#TextUtils.pad_new">.pad()(_target, _count)</a> ⇒ <code>string</code>
 * <a href="./docs/TextUtils.md#TextUtils.injectBreakTags">.injectBreakTags(str, indexes)</a>
+
 
 * * *
