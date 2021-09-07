@@ -7,8 +7,7 @@
 	"description": "",
 	"main": "index.js",
 	"scripts": {
-		"pub": "np",
-		"docs": "node md/docs_to_md.js"
+		"pub": "np"
 	},
 	"engines": {
 		"node": ">=9.8.0",
@@ -21,23 +20,10 @@
 	"author": "RED Interactive Agency",
 	"license": "MIT",
 	"devDependencies": {
-		"@ff0000-ad-tech/ad-docs": "git+https://github.com/ff0000-ad-tech/ad-docs.git",
-		"babel-core": "^6.26.3",
-		"babel-eslint": "^8.2.6",
-		"babel-jest": "^21.2.0",
-		"babel-preset-env": "^1.7.0",
-		"chai": "^4.2.0",
-		"eslint": "^4.19.1",
-		"eslint-config-prettier": "^2.10.0",
-		"eslint-plugin-prettier": "^2.7.0",
-		"jsdom": "^11.12.0",
-		"jsdom-global": "^3.0.2",
-		"mocha": "^4.0.1",
+		"@babel/eslint-parser": "^7.15.0",
+		"eslint": "^7.32.0",
+		"eslint-config-prettier": "^8.3.0",
 		"np": "^2.20.1",
-		"prettier": "^1.17.1"
-	},
-	"dependencies": {
-		"@ff0000-ad-tech/ad-view": "^1.1.1",
-		"@ff0000-ad-tech/ad-video": "^1.0.5"
+		"prettier": "^2.3.2"
 	}
 }
